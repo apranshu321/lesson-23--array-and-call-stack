@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Homework</title></head>
+<body>
+<h1>javascript objects and data structure and array</h1>
+<p id="demo"></p>
+<script>
+    var student={
+          name:"Riya",
+          age:"12",
+          grade:"7",
+          hobbies: "Drawing",
+          fav_sport: "Cricket",
+    };
+    var color=["White","Black","Red","Green","Blue"];
+    document.write("Student name is : "+student.name,"<br>","Student favourite sport is : "+student.fav_sport+"<br>");
+    document.write("Before poping her favourite colours are : "+color.join("_")+"<br>");
+     color.pop()
+    document.write("After poping her favourite colours are : "+color.join("__"));
+
+</script>
+</body>
+</html>

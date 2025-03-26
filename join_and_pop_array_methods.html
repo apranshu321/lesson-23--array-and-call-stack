@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>array funtions</title></head>
+<body>
+    <h1>array funtions</h1>
+    <p id="myfirstjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var fruits=["banana","kiwi","apple","mango","guava"];
+        document.getElementById("myfirstjoin").innerHTML=fruits.join("_")
+        fruits.pop();
+        document.getElementById("myfirstpop").innerHTML=fruits;
+        fruits.pop();
+        document.getElementById("mysecondpop").innerHTML=fruits;
+
+    </script>
+</body>
+</html>
